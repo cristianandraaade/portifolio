@@ -1,0 +1,41 @@
+.page {
+    width: 100vw;
+    height: 92vh;
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .container {
+        width: 70%;
+        height: 50%;
+        display: flex;
+        border: solid 1px purple;
+
+        & .imagem {
+            border: solid 1px red;
+            width: 46%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & img {
+                width: 400px;
+                height: 400px;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 3px solid #00ADB5;
+                box-shadow: 0 0 15px rgba(0, 173, 181, 0.4);
+            }
+        }
+
+        & .text {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            border: solid 1px orange;
+            width: 54%;
+            padding-bottom: 1% ;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.header {
+    border: 1px solid blue;
+    color: #F5F5F5;
+    /* background-image: url("../../assets/img/code.jpg"); */
+    background-color: #1E1E1E;
+    display: flex;
+    width: 100vw;
+    height: 8vh;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    & .title {
+        width: 30%;
+        border: solid 1px red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & .navbar {
+        border: solid 1px yellow;
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        & .link{
+            font-size: 25px;
+            text-decoration: none;
+            color: #F5F5F5;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        & .link:hover{
+            color: #EEEEEE
+        }
+    }
+}
