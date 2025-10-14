@@ -1,0 +1,13 @@
+.projetos {
+    width: 100vw;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.cardsPage {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

@@ -10,7 +10,6 @@ function PaginaBase() {
                 <Outlet />
             </Container>
         </main>
-
     )
 }
 export default PaginaBase;

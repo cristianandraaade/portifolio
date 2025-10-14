@@ -1,7 +1,6 @@
 .page {
     width: 100vw;
-    height: 92vh;
-    border: solid 1px blue;
+    margin-top: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +9,8 @@
         width: 70%;
         height: 50%;
         display: flex;
-        border: solid 1px purple;
 
         & .imagem {
-            border: solid 1px red;
             width: 46%;
             display: flex;
             justify-content: center;
@@ -33,7 +30,6 @@
             display: flex;
             justify-content: start;
             align-items: center;
-            border: solid 1px orange;
             width: 54%;
             padding-bottom: 1% ;
         }

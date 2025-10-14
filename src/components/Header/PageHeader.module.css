@@ -1,5 +1,4 @@
 .header {
-    border: 1px solid blue;
     color: #F5F5F5;
     /* background-image: url("../../assets/img/code.jpg"); */
     background-color: #1E1E1E;
@@ -10,17 +9,22 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 
     & .title {
-        width: 30%;
-        border: solid 1px red;
+        width: 40%;
         display: flex;
         align-items: center;
         justify-content: center;
+
+        & .titulo{
+            font-family: "Montserrat", sans-serif;
+        }
     }
 
     & .navbar {
-        border: solid 1px yellow;
         width: 40%;
         display: flex;
         justify-content: space-around;
