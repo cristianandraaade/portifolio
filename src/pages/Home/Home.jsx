@@ -24,7 +24,7 @@ function Home() {
                 <div className={styles.page}>
                     <div className={styles.container}>
                         <div className={styles.imagem}>
-                            <img src="../../../public/assets/img/eu.jpeg" alt="eu" />
+                            <img src="/assets/img/eu.jpeg" alt="eu" />
                         </div>
                         <div className={styles.text}>
                             <TextTap style={{
