@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Estagiario Desenvolvedor Full-Stack",
+    "empresa": "EmbryoAll",
+    "periodo": "Nov/2025 - Mar/2026",
+    "language": "PHP / Javascript / Bootstrap",
+    "description": "Desenvolvimento de aplicações completas com API REST, front-end responsivo e integração com banco de dados em projetos acadêmicos e pessoais."
+  },
+  {
+    "id": 2,
+    "name": "Desenvolvdor Full-Stack",
+    "empresa": "COESA Energy",
+    "periodo": "Mar/2026 - Atual",
+    "language": "JavaScript / TypeScript / Vue.js",
+    "description": "Aprofundamento em desenvolvimento web moderno com foco em componentização, consumo de APIs e boas práticas de código."
+  }
+]

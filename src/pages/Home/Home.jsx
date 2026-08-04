@@ -4,6 +4,7 @@ import styles from "./Home.module.css"
 import TextTap from "../../components/Text/TextTap.jsx"
 import Sobre from "../Sobre/Sobre.jsx"
 import Projetos from "../Projetos/Projetos.jsx"
+import Experiencias from "../Experiencias/Experiencias.jsx"
 import Contatos from "../Contato/Contato.jsx"
 
 function Home() {
@@ -45,6 +46,10 @@ function Home() {
 
             <section id="projetos">
                 <Projetos/>
+            </section>
+
+            <section id="experiencias">
+                <Experiencias/>
             </section>
 
             <section id="contato">

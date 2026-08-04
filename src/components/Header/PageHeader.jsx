@@ -14,6 +14,7 @@ function PageHeader() {
                 <Link className={styles.link} to="/home" style={{ marginRight: "10px" }}>Home</Link>
                 <Link className={styles.link} to="/sobre" style={{ marginRight: "10px" }}>Sobre</Link>
                 <Link className={styles.link} to="/projetos" style={{ marginRight: "10px" }}>Projetos</Link>
+                <Link className={styles.link} to="/experiencias" style={{ marginRight: "10px" }}>Experiências</Link>
                 <Link className={styles.link} to="/contato">Contato</Link>
             </nav>
         </header>

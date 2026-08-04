@@ -1,41 +1,15 @@
-import { useEffect, useState } from "react";
 import styles from "./Projetos.module.css";
-import Card from "../../components/Card/Card.jsx"
+import Card from "../../components/Card/Card.jsx";
+import projetosSelecionados from "../../data/projetos.json";
 
 
 function Projetos() {
-    const projetosSelecionados = [
-        {
-            id: 1,
-            name: "Mauro Motors",
-            html_url: "https://github.com/cristianandraaade/mauro-motors-api",
-            language: "PHP / REACT",
-            description:
-                "Projeto de um site de venda de carros, sendo dividido em uma API desenvolvida em PHP Puro no Padrão MVC e API Rest e um Front-end responsivo em React",
-        },
-        {
-            id: 2,
-            name: "Pokedéx Vue.js",
-            html_url: "https://github.com/cristianandraaade/pokedex-vue.js",
-            language: "Vue.js",
-            description:
-                "Projeto para estudo de Vue.js, uma Pokedéx que consome os dados da PokeAPI",
-        },
-        {
-            id: 3,
-            name: "Terminal Quest",
-            html_url: "https://github.com/cristianandraaade/terminal-quest",
-            language: "Python",
-            description:
-                "Pequeno jogo desenvolvido em python que venho constatemente atualizando",
-        }
-    ];
     return (
         <div className={styles.projetos}>
             <div className={styles.cardsPage}>
                 <Card repositories={projetosSelecionados} />
             </div>
         </div>
-    )
+    );
 }
 export default Projetos;
